@@ -1,0 +1,117 @@
+.RefTattoo{
+  color: white;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* spacing */
+body{
+    background-color:rgb(0, 0, 0);
+}
+table {
+    table-layout:auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(159, 255, 159, 0.719);
+  }
+  thead th:nth-child(1) {
+    width: 44.2%;
+  }
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  thead th:nth-child(3) {
+    width: 35.8%;
+  }
+  th,
+td {
+  padding: 20px;
+}
+caption{
+  color: white;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* typografia */
+
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  
+thead{
+    font-family: "Rock+Salt" cursive;
+  }
+  th{
+    letter-spacing: 1px;
+  }
+  td{
+  letter-spacing: 1px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  tbody td {
+    text-align: center;
+  }
+ .MenuDeNavegacion{
+    padding: 4px 25px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+ .BotondeInicio{
+    padding: 4px 25px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .BotonAbout{
+    padding: 4px 25px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .BotondeTips{
+    padding: 4px 25px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Formulario{
+    padding: 4px 25px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .AcercaDeMi{
+    padding: 4px 25px;
+    background: rgb(253, 253, 253);
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration: wavy;
+    font-family:Arial, Helvetica, sans-serif
+ }
+ /*Esto quita la viñeta o el puntito . a la lista! Lo tuve que poner al lado de <li> con un div=class :D*/
+ .Menu{
+    list-style-type: none;
+ }

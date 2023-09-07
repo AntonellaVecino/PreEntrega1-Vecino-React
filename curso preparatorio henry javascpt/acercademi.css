@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    text-decoration: overline;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parrafo1{
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:solid black;
+    background-color: rgba(107, 207, 124, 0.842);
+    background-image: url("./imagenes/pulpo.png");
+    background-position: 200px;
+    background-repeat:repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-attachment: scroll;
+    background-size: 4cm;
+}
+.hola{
+    text-align: center;
+}
+.instagramFoto{
+    display: flex;
+  justify-content: center;
+}
+.descripcion{
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+button{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LinkAbout{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 3.5px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Foots{
+    text-align: center;
+}

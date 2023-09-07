@@ -1,0 +1,106 @@
+/* Edicion About.html*/
+.TituloAbout{
+    color:rgb(224, 241, 223);
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+.TituloAbout{
+    display: inline-block;
+}
+.botonInicio{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botonPrecios {
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tips{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutMe{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contacto{
+    padding: 4px 25px;
+    background: aliceblue;
+    border: 1px solid #0b3303;
+    color: solid black;
+    border-radius: 4px;
+    text-decoration:wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Botonera{
+    text-align: center;
+    list-style-type: none;
+}
+.Parrafo1{
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.Parrafo2{
+    color: #ffffff;
+    text-align:justify;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-size: 10px;
+}
+button,
+input,
+select,
+textarea {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+input,
+textarea,
+select,
+button {
+  width: 100px;
+  padding: 5px;
+  margin: 1px;
+  box-sizing:border-box;
+  background-color: aliceblue;
+  color: rgb(23, 8, 85);
+}
+body{
+    background-image: url("./imagenes/pulpo.png");
+    background-position: 200px;
+    background-repeat:repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-attachment: scroll;
+    background-color: rgba(5, 83, 18);
+    background-size: 5cm;
+    text-align: center;
+}
