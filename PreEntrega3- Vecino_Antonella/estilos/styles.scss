@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Salsa&display=swap");
+
+
+$fuenteUno: "Salsa", cursive;
+$tamañoFuenteBody: 20px;
+$fuenteTitulos: "Berkshire Swash", serif;
+$letraBlanca: #ffffff;
+$colorBase1: green;
+$colorBase2: yellow;
+$colorBase3: black;
+$bordes: 3px solid black;
+$bordesHover: 3px solid gold;
+$sombraTexto: 5px -6px 4px gold;
+$sombraTextoWhite: 2px 2px 5px white;
+$sombraTextoBlack: 2px 2px 5px black;
+$sombraBox: 2px 0px 10px 5px purple;
+$colorFondo1: rgb(69, 255, 1);
+$colorFondo2: purple;
+$colorFondo3: rgba(34, 139, 34, 0.674);
+
+@mixin estiloFotos1{
+  border: 3px solid black;
+  border-radius: 10px;
+  filter: grayscale(100%) blur(2px);
+}
+@mixin estiloFotosHover1{
+  border: 5px solid purple;
+  transform: scale(0.9);
+  transition: all 0.9s;
+  filter: grayscale(0%) blur(0px);
+}
+@mixin botonesHover{
+  background-color: $colorFondo1;
+  border: $bordesHover;
+  box-shadow: $sombraBox;
+}
+%estilosBotones{
+      width: fit-content; 
+      text-align: center;
+      margin: 10px;
+      color: $letraBlanca;
+      background-color: $colorBase1;
+      border: $bordes;
+      padding: 5px;
+      text-decoration: none;
+      border-radius: 10px;
+}
+
+/* En general */
+h1,
+h2,
+h3 {
+    font-family: $fuenteTitulos;
+}
+body {
+    color: $letraBlanca;
+    font-family: $fuenteUno;
+    background-image: linear-gradient(to top,
+    #00ff00,
+    #2ecc33,
+    #27ae32,
+    #239621,
+    #1e8423,
+    #196f27,
+    #138d2b,
+    #117a11,
+    #0e6615,
+    #0b500f);
+    font-size: $tamañoFuenteBody;
+}
+.navbar {
+    font-size: 25px;
+    background-color: $colorBase1;
+    list-style: none;
+    padding: 25px;
+    background-size: cover;
+    .nav-item {
+        padding: 20px;
+      } 
+      .navbar img {
+        margin-right: 25px;
+      }
+      #barraDrop {
+        color: $colorBase2;
+      }
+      .redes i {
+        padding-right: 5px;
+      }
+  }
+.footer {
+  background-color: $colorBase1;
+  font-size: 20px;
+  margin-top: 25px;
+}
+  
+
+  /* En index */
+  .presentacion {
+    background-image: radial-gradient(rgb(40, 0, 40), rgb(70, 0, 70), rgb(100, 0, 100), rgb(130, 0, 130));
+    letter-spacing: 3px;
+    h1{
+      color: $colorBase3;
+      text-shadow: $sombraTextoWhite;
+      font-size: 60px;
+    }
+    h2, h4, h5{
+      text-shadow: $sombraTextoBlack;
+    }
+    .redSocial{
+      margin-top: 30px;
+      font-size: 20px; 
+      padding: 15px;
+    }
+    .fotoPulpo{
+      animation: moveUpDown 4s ease-in-out infinite; 
+    }
+    @keyframes moveUpDown {
+      0% {
+        transform: translateY(-10px); 
+      }
+      50% {
+        transform: translateY(10px); 
+      }
+      100% {
+        transform: translateY(-10px); 
+      }
+    }
+    .botonCallToAction{
+      @extend %estilosBotones;
+    }
+    & .redSocial:hover{
+      background-color: transparent;
+      transition: 2s;
+      transform: scale(0.8);
+    }
+    & .botonCallToAction:hover {
+      @include botonesHover;
+    }
+  }
+
+  .carousel-caption{
+    h1{
+        font-size: 40px;
+        color: $colorBase3;
+        text-shadow: $sombraTexto;
+        margin-bottom: 20px;
+      }
+    .botonCarrusel{
+        @extend %estilosBotones;
+      }
+
+      & a:hover {
+        @include botonesHover;
+      }
+  } 
+  .jumbotron {
+    font-size: 25px;
+    text-align: center;
+    background-color: $colorFondo3;
+    h1 {
+      color: $colorBase3;
+      text-shadow: $sombraTexto;
+      font-size: 2em;
+    }
+  }
+  .videoPresentacion {
+    background-color: $colorFondo3;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 100px;
+    flex-flow: column wrap;
+    background-image: url(../imgs/Background/abstract-green-background-free-vector.jpg);
+    background-size: cover;
+    h3 {
+      text-align: center;
+      text-decoration: overline;
+      font-size: 40px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-shadow: $sombraTexto;
+    }
+    blockquote{
+      padding-bottom: 50px;
+    }
+  }
+.galeriaTrabajos{
+  margin-top: 150px;
+  background-color: $colorFondo3;
+  border-radius: 10px;
+  h1{
+    padding-top: 50px;
+    text-decoration: underline;
+  }
+  .foto {
+    @include estiloFotos1();
+    margin-top: 50px;
+  }
+  & .foto:hover{
+    @include estiloFotosHover1();
+  }
+}
+.cartas{
+  margin-top: 50px;
+  background-color: $colorFondo3;
+    .tituloCards {
+      text-decoration: overline;
+      color: $colorBase3;
+      text-shadow: $sombraTextoWhite;
+    }
+    .cards {
+     height: auto; 
+    }
+    .card {
+      color: black;
+      margin-top: 50px;
+      font-size: 18px;
+      background-color: rgba(255, 217, 0, 0.8);
+      border: 3px solid black;
+      border-radius: 5px;
+    }
+    img {
+      padding: 5px;
+    }
+    a{
+      @extend %estilosBotones;
+    }
+}
+
+
+
+/* medias de index */
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .galeriaTrabajos{
+    .foto{
+      margin-top: 10px;
+    }
+    & foto:active{
+      @include estiloFotosHover1();
+    }
+  }
+}
