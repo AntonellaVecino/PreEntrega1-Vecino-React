@@ -54,8 +54,10 @@
           </nav>
     </header>
     <!-- Fin barra Navegacion -->
+    <main>
     <!-- inicia presentacion -->
-    <div class="container-fluid-md m-3 mt-3 mb-5 presentacion animate__animated animate__backInUp animate__duration:3s; animate__delay-1s">
+    <div class="container-fluid p-4 mt-3 mb-5">
+    <div class="presentacion animate__animated animate__backInUp animate__duration:3s; animate__delay-0.5s">
       <div class="row">
         <div class="col-md-6 p-4 text-center mt-3">
           <h1 class="pb-3">Fonsink Tattoo Studio</h1>
@@ -73,49 +75,31 @@
           <h5 class="pb-3">¿Quieres tatuarte con nosotros?</h5> 
           <p><a class="btn botonCallToAction" href="./pages/formulario.html">Haz tu reserva Aquí</a></p>
         </div>
-        <div class="col-md-6 p-4 text-center">
-            <img src="./imgs/Background/iconoPulpo.png" alt="fotoFondo" class="img-fluid w-100 h-100 fotoPulpo rounded">
+        <div class="col-md-6 p-4 d-flex">
+            <img src="./imgs/Background/iconoPulpo.png" alt="fotoFondo" class="img-fluid fotoPulpo rounded">
         </div>
     </div>
     </div>
+  </div>
     <!-- fin presentacion -->
     <!-- Inicio del Carrusel -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade m-3" data-bs-ride="carousel">
+    <div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade m-3 carruselIndex" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./imgs/multimedia/LocalCarrete1.jfif" class="d-block w-100" alt="foto1">
-            <div class="carousel-caption d-none d-sm-block">
-                <h1>Fonsink Tattoo Studio</h1>
-                <a class="botonCarrusel" href="./pages/formulario.html">Reserva Aquí</a>
-              </div>
           </div>
           <div class="carousel-item">
             <img src="./imgs/multimedia/localCarrete2.jfif" class="d-block w-100" alt="foto2">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>Fonsink Tattoo Studio</h1>
-                <a class="botonCarrusel" href="./pages/formulario.html">Reserva Aquí</a>
-              </div>
           </div>
           <div class="carousel-item">
             <img src="./imgs/multimedia/localCarrete3.jfif" class="d-block w-100" alt="foto3">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>Fonsink Tattoo Studio</h1>
-                <a class="botonCarrusel" href="./pages/formulario.html">Reserva Aquí</a>
-              </div>
           </div>
           <div class="carousel-item">
             <img src="./imgs/multimedia/localCarrete4.jfif" class="d-block w-100" alt="foto4">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>Fonsink Tattoo Studio</h1>
-                <a class="botonCarrusel" href="./pages/formulario.html">Reserva Aquí</a>
-              </div>
           </div>
           <div class="carousel-item">
             <img src="./imgs/multimedia/localCarrete5.jfif" class="d-block w-100" alt="foto5">
-            <div class="carousel-caption d-none d-md-block">
-                <h1>Fonsink Tattoo Studio</h1>
-                <a class="botonCarrusel" href="./pages/formulario.html">Reserva Aquí</a>
-              </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -127,17 +111,21 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
     <!-- Fin del Carrusel -->
     <!-- Comienza Jumbotron -->
+    <div class="container-fluid p-3">
     <div data-aos="fade-right" data-aos-duration="1000" class="jumbotron mt-5 p-2 text-white text-center rounded">
       <h1 class="animate__animated animate__pulse animate__infinite">Bienvenidos a Fonsink Tattoo Studio</h1>
       <p>Aquí podras ver nuestros trabajos, orientarte con ejemplos y estilos variados, e inspirarte con nuestros diseños exclusivos. Te esperamos en nuestro espacio de trabajo, donde serás atendido con las mejores tecnologías y una cálida ambientación, que nos destacan y hacen de nuestro trabajo el mejor de Galicia y toda España.</p>
       <p> Adéntrate y conoce más acerca del cuidado de tu tatuaje, los estilos que trabajamos, y ¡Solicita un espacio en nuestra agenda! ¿Qué esperas para hacer tu reserva? Te esperamos en Fonsink Tattoo Studio, donde haremos realidad tu sueño.</p>
     </div>
+  </div>
     <!-- Fin de Jumbotron -->
     <!-- inicia video Presentacion -->
+    <div class="container-fluid p-4">
     <div class="videoPresentacion">
-      <h3>Artista: Elvis Machado</h3>
+      <h3>Conoce los trabajos del Artista Elvis Machado</h3>
       <div class="embed-responsive embed-responsive-16by9">
         <blockquote class="tiktok-embed"
         cite="https://www.tiktok.com"
@@ -152,132 +140,128 @@
         <script async src="https://www.tiktok.com/embed.js"></script>
       </div>
     </div>
+  </div>
     <!-- Fin Video Presentacion -->
     <!-- Inicia sector Galeria Trabajos -->
-    <div class="galeriaTrabajos container-md text-center">
-      <div class="row">
-        <div class="col-md-12">
-      <h1>Galería de Trabajos más Importantes</h1>
-    </div>
-    </div>
+    <div class="galeriaTrabajos container-sm text-center">
     <div class="row">
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1000" class="img-fluid foto foto1" src="./imgs/tatuajes/alacran.jpeg" alt="Alacran" width="300px" height="300px">
+        <img class="img-fluid foto foto1" src="./imgs/tatuajes/alacran.jpeg" alt="Alacran">
       </div>
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1500" class="img-fluid foto foto2" src="./imgs/tatuajes/dino.jpeg" alt="Dino" width="300px" height="300px">
+        <img class="img-fluid foto foto2" src="./imgs/tatuajes/dino.jpeg" alt="Dino">
       </div>
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000" class="img-fluid foto foto3" src="./imgs/tatuajes/dragon.jpeg" alt="dragon" width="300px" height="300px">
+        <img class="img-fluid foto foto3" src="./imgs/tatuajes/dragon.jpeg" alt="dragon">
       </div>
   </div>
-    <div class="row pt-5">
+    <div class="row pt-3">
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1000" class="img-fluid foto foto4" src="./imgs/tatuajes/flor.jpeg" alt="Flor" width="300px" height="300px">
+        <img class="img-fluid foto foto4" src="./imgs/tatuajes/flor.jpeg" alt="Flor">
       </div>
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1500" class="img-fluid foto foto5" src="./imgs/tatuajes/leon.jpeg" alt="Leo Zodiaco" width="300px" height="300px">
+        <img class="img-fluid foto foto5" src="./imgs/tatuajes/leon.jpeg" alt="Leo Zodiaco">
       </div>
       <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000" class="img-fluid foto foto6" src="./imgs/tatuajes/nombres.jpeg" alt="Nombres" width="300px" height="300px">
-      </div>
-  </div>
-    <div class="row pt-5">
-      <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1000" class="img-fluid foto foto7" src="./imgs/tatuajes/pajaro.jpeg" alt="Pajaro" width="300px" height="300px">
-      </div>
-      <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1500" class="img-fluid foto foto8" src="./imgs/tatuajes/resiliencia.jpeg" alt="Frase" width="300px" height="300px"> 
-      </div>
-      <div class="col-md-4">
-        <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000" class="img-fluid foto foto9" src="./imgs/tatuajes/rosa.jpeg" alt="Rosa" width="300px" height="300px">
+        <img class="img-fluid foto foto6" src="./imgs/tatuajes/nombres.jpeg" alt="Nombres">
       </div>
   </div>
-  <div class="row pt-5 pb-3">
+    <div class="row pt-3">
+      <div class="col-md-4">
+        <img class="img-fluid foto foto7" src="./imgs/tatuajes/pajaro.jpeg" alt="Pajaro">
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid foto foto8" src="./imgs/tatuajes/resiliencia.jpeg" alt="Frase"> 
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid foto foto9" src="./imgs/tatuajes/rosa.jpeg" alt="Rosa">
+      </div>
+  </div>
+  <div class="row pt-3 pb-5">
     <div class="col-md-4">
-      <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1000" class="img-fluid foto foto10" src="./imgs/tatuajes/rosasombreada.jpeg" alt="Rosa con Sombra"  width="300px" height="300px">
+      <img class="img-fluid foto foto10" src="./imgs/tatuajes/rosasombreada.jpeg" alt="Rosa con Sombra" >
     </div>
     <div class="col-md-4">
-      <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1500" class="img-fluid foto foto11" src="./imgs/tatuajes/runas.jpeg" alt="Runa" width="300px" height="300px"> 
+      <img class="img-fluid foto foto11" src="./imgs/tatuajes/runas.jpeg" alt="Runa"> 
     </div>
     <div class="col-md-4">
-      <img data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000" class="img-fluid foto foto12" src="./imgs/tatuajes/WhatsApp Image 2023-10-18 at 22.40.07 (2).jpeg" alt="Patricio" width="300px" height="300px">
+      <img class="img-fluid foto foto12" src="./imgs/tatuajes/WhatsApp Image 2023-10-18 at 22.40.07 (2).jpeg" alt="Patricio">
     </div>
   </div>
   </div>
     <!-- Fin Galeria Trabajos -->
   <!-- Inicio cards con posts instagram -->
   <div class="container py-5 cartas">
-    <h2 class="text-center tituloCards mt-4">Aquí podrás ver los Posts más recientes de nuestro Instagram</h2>
+    <h2 class="text-left tituloCards mt-4"> Publicaciones recientes de nuestro Instagram:</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4 py-5 cards">
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col">
             <div class="card">
-                <img src="./imgs/tatuajes/leon.jpeg" class="card-img-top" alt="leon" height="400px">
+                <img src="./imgs/tatuajes/leon.jpeg" class="card-img-top" alt="leon">
                 <div class="card-body text-center">
                     <h5 class="card-title">Signo del Zodiaco</h5>
                     <p class="card-text">Trabajo con línea fina, y un delicado sombreado. El diseño fue personalizado a gusto del cliente.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/p/CvH1lC2ODbK/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col">
             <div class="card">
-              <img src="./imgs/ejemplosAboutUs/foto2.png" class="card-img-top" alt="Aguila" height="400px">
+              <img src="./imgs/ejemplosAboutUs/foto2.png" class="card-img-top" alt="Aguila">
                 <div class="card-body text-center">
                     <h5 class="card-title">Tatuaje de Águila</h5>
-                    <p class="card-text">Hecho de manera FreeHand, inspirado en estilo Tradicional. Contiene sombras hechas con Puntillismo.</p>
+                    <p class="card-text">Hecho de manera FreeHand, inspirado en estilo Tradicional. Sombras hechas con Puntillismo.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/p/Cy-rlj_uHrY/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000"  class="col">
             <div class="card">
-              <img src="./imgs/ejemplosAboutUs/mariposas.jpeg" class="card-img-top" alt="mariposas" height="400px">
+              <img src="./imgs/ejemplosAboutUs/mariposas.jpeg" class="card-img-top" alt="mariposas">
                 <div class="card-body text-center">
                     <h5 class="card-title">Mariposas</h5>
                     <p class="card-text">Trabajo con relleno en Puntillismo, un delicado sombreado, de linea fina, con terminaciones sólidas.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/reel/CzYtPTIu3bR/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col">
             <div class="card">
-              <img src="./imgs/ejemplosAboutUs/foto6.png" class="card-img-top" alt="orca" height="400px">
+              <img src="./imgs/ejemplosAboutUs/foto6.png" class="card-img-top" alt="orca">
                 <div class="card-body text-center">
                     <h5 class="card-title">Orca</h5>
                     <p class="card-text">Trabajo con puntillismo, aplicando linea fina y sombreado.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/p/Cuu7GmKv8is/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col">
             <div class="card">
-              <img src="./imgs/ejemplosAboutUs/foto3.png" class="card-img-top" alt="Ancla" height="400px">
+              <img src="./imgs/ejemplosAboutUs/foto3.png" class="card-img-top" alt="Ancla">
                 <div class="card-body text-center">
                     <h5 class="card-title">Ancla de Boca</h5>
                     <p class="card-text">Trabajo con color, estructurado y relleno sólido. Sin sombreado.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/p/CvSq0Syp9_W/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000"  class="col">
             <div class="card">
-              <img src="./imgs/ejemplosAboutUs/foto5.png" class="card-img-top" alt="tobillo" height="400px">
+              <img src="./imgs/ejemplosAboutUs/foto5.png" class="card-img-top" alt="tobillo">
                 <div class="card-body text-center">
                     <h5 class="card-title">Tobillera</h5>
                     <p class="card-text">Trabajo con línea fina y relleno sólido. Diseño ergonómico.</p>
                 </div>
-                <div class="mb-5 d-flex justify-content-around">
+                <div class="mb-5 d-flex justify-content-around botonesPosts">
                   <a href="https://www.instagram.com/p/Cy-rlj_uHrY/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" class="btn btn-primary">Ver Publicación</a>
                 </div>
             </div>
@@ -286,21 +270,22 @@
 </div>
   <!-- Fin de cards posts IG -->
   <!-- Inicio Carrusel Videos -->
-  <div class="container-fluid-md carruselVideos">
-    <h2>Estudio de Tattoo en España, ¡Y donde estés!</h2>
+  <div class="container-fluid p-4 mt-3">
+  <div class="carruselVideos p-3">
+    <h2 class="text-center pb-4 pt-4">Estudio de Tattoo en España, ¡Y donde estés!</h2>
     <p>Al realizarte un tatuaje, necesitas un experto que sepa cómo hacerlo, en el cual puedas confiar. Para brindarte el mejor servicio, en Fonsink Tattoo nos hemos preparado formalmente, con los mejores cursos de aprendizaje, convenciones internacionales y seminarios, dictados por los tatuadores más reconocidos de toda España, Europa y América. Con esta base sólida, más los años de experiencia, nos aseguraremos de cumplir tus expectativas, y que así lleves en tu piel lo mejor de cada pieza de arte. Con nuestro experto, Elvis Machado, te brindamos un servicio óptimo y de calidad, con estrictos estándares de higiene y bioseguridad; y un ambiente relajado para que tengas la mejor experiencia en nuestro estudio. Puedes optar por diferentes estilos, entre los que destacamos el Tradicional, Neo Tradicional, Black and Grey, Realismo y Puntillismo.</p>
     <p>¡Inspírate! Nosotros haremos realidad tu sueño.</p>
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div id="demo" class="carousel slide mt-4 mb-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <video src="./imgs/multimedia/videoLocal1.mp4" class="d-block w-100" controls autoplay loop></video>
+            <video src="./imgs/multimedia/videoLocal1.mp4" class="d-block w-100" muted autoplay loop></video>
           </div>
           <div class="carousel-item">
-            <video src="./imgs/multimedia/videoLocal2.mp4" class="d-block w-100" controls autoplay loop></video>
+            <video src="./imgs/multimedia/videoLocal2.mp4" class="d-block w-100" muted autoplay loop></video>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -311,16 +296,20 @@
         </button>
       </div>
   </div>
+</div>
   <!-- Fin Carrusel Videos -->
+</main>
   <!-- Inicia Footer -->
   <footer class="footer text-center text-lg-start text-white">
     <div class="container-md p-4">
+      <!-- parte del logo -->
       <div class="row my-4">
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 parteLogo">
+          <div class="rounded-circle bg-white shadow-1-strong d-flex text-center align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
             <a href="index.html"><img src="./imgs/multimedia/logo-removebg.png" width="100%" height="auto" alt="logo" loading="lazy" /></a>
           </div>
-          <p class="text-center">Fonsink Tattoo Studio, de España para el Mundo.</p>
+          <p class="text-center">Fonsink Tattoo Studio,</p> 
+          <p class="text-center">de España para el Mundo.</p>
           <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
               <a class="text-white px-2" href="https://www.instagram.com/fonsinktattoo/?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==" target="_blank">
@@ -345,41 +334,43 @@
           </ul>
         </div>
         <!--Columna Info-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 lista1">
-          <h5 class="text-uppercase mb-4">Información</h5>
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 lista1 text-center mt-4">
+          <h5 class="text-uppercase mb-4 text-black fw-bold">Información</h5>
           <ul class="list-unstyled">
-            <li class="mb-2">
+            <li class="mb-2 pt-1">
               <a href="./pages/aboutUs.html" class="text-white"><i class="fa-solid fa-droplet" style="color: #ff0000;"></i></i>Acerca de Nosotros</a>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 pt-1">
               <a href="./pages/cuidados.html" class="text-white"><i class="fa-solid fa-droplet" style="color: #ff0000;"></i></i>¿Cómo cuidar tu tatuaje?</a>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 pt-1">
               <a href="./pages/tatuajes.html" class="text-white"><i class="fa-solid fa-droplet" style="color: #ff0000;"></i></i>Acerca de los Tatuajes...</a>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 pt-1">
               <a href="https://api.whatsapp.com/send?phone=541137878141&text=Hola%2C%20Fonsink!%20Quiero%20hacerme%20un%20tatuaje%20%F0%9F%92%9A..." target="_blank" class="text-white"><i class="fa-solid fa-droplet" style="color: #ff0000;"></i></i>¿Tienes dudas? Llámanos.</a>
             </li>
-            <li class="mb-2">
+            <li class="mb-2 pt-1">
               <a href="./pages/formulario.html" class="text-white"><i class="fa-solid fa-droplet" style="color: #ff0000;"></i></i>Haz tu reserva</a>
             </li>
           </ul>
         </div>
         <!-- columna mapa-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">¿Dónde Estamos?</h5>
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 mt-5 text-center justify-content-center d-flex align-items-center ubicacion">
+          <h5 class="text-uppercase mb-4 text-black fw-bold">¿Dónde Estamos?</h5>
           <ul class="list-unstyled">
             <li class="mb-2">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46778.37767084391!2d-8.585969454299615!3d42.88026046028548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe44e2dd71a7%3A0xe0146888c087e311!2sSantiago%20de%20Compostela%2C%20La%20Coru%C3%B1a%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1699905394889!5m2!1ses-419!2sar" width="190px" height="auto" style="border:3px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46778.37767084391!2d-8.585969454299615!3d42.88026046028548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe44e2dd71a7%3A0xe0146888c087e311!2sSantiago%20de%20Compostela%2C%20La%20Coru%C3%B1a%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1699905394889!5m2!1ses-419!2sar" width="250px" height="250px" style="border:3px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </li>
           </ul>
         </div>
         <!--columna contacto-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Contáctanos</h5>
-          <ul class="list-unstyled">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center mt-5">
+          <h5 class="text-uppercase mb-4 text-black fw-bold">Contáctanos</h5>
+          <ul class="list-unstyled p-2">
             <li>
-              <p><i class="fas fa-map-marker-alt pe-2"></i>Hernando de Magallanes 2795, Santiago de Compostela, La Coruña, España</p>
+              <p><i class="fas fa-map-marker-alt pe-2"></i>Hernando de Magallanes 2795,</p> 
+              <p>Santiago de Compostela,</p> 
+              <p>La Coruña, España.</p>
             </li>
             <li>
               <p><i class="fas fa-phone pe-2"></i>+ 011 3787 8141</p>
@@ -392,7 +383,7 @@
       </div>
     </div>
     <!-- Derechos de Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center p-3 fw-bold copyright">
       © 2023 Todos los derechos de Copyright reservados por
       <a class="text-white" href="mailto:antonellavecino@hotmail.com">Antonella Vecino</a>
     </div>
