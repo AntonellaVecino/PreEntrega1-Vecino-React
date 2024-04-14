@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    column-gap: 25px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

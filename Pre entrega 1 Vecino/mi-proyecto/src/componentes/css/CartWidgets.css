@@ -1,0 +1,10 @@
+span{
+    background-color: #011936;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 25px;
+}
+.carrito {
+    display: flex;
+    flex-direction: row;
+}

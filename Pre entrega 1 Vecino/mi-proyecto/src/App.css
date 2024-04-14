@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.barraNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9dc5c;
+}

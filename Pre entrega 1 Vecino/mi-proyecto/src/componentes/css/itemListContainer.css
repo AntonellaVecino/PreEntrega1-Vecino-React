@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: #ED254E;
+    margin: 35px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.jumbotron h2 {
+    color: white;
+    padding: 15px;
+}
+.jumbotron p {
+    padding: 5px;
+}
